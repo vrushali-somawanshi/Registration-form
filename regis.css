@@ -1,0 +1,93 @@
+
+
+  #registration-form {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 30x rgba(0, 0, 0, 0.1);
+  }
+
+  
+  label {
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 30px;
+   
+  }
+  
+  input[type="text"], input[type="email"] {
+    width: 90%;
+    height: 30px;
+    /*margin-bottom: 20px;*/
+    padding: 10px;
+   
+    border: 3px solid red;
+  }
+
+
+  .inp1:focus {
+    border: 5px solid blue;
+  }
+
+  .inp2:focus {
+    border: 5px solid blue;
+  }
+
+  .inp3:focus {
+    border: 5px solid blue;
+  }
+
+
+
+  
+  
+
+  #submit-btn{
+
+    width: 250px;
+    height: 44px;
+    background-color: aqua;
+    color: black;
+    border:none;
+    font-size: 22px;
+    border-radius: 25px;
+    margin-top: 20px;
+
+  }
+
+  #cancel-btn{
+    width: 250px;
+    height: 44px;
+    background-color: aqua;
+    color: black;
+    border:none;
+    font-size: 22px;
+    border-radius: 25px;
+    margin-top: 20px;
+
+  }
+
+  
+
+
+button:hover{
+    border: 3px solid aqua;
+    color: white;
+    font-size: 20px;
+    background-color: rgb(179, 127, 127);
+    
+}
+
+
+
+
+  
+ 
+  #error-messages {
+    color:red;
+    font-size: 1px;
+    margin-bottom: 5px;
+    margin-top: 1px;
+  }
